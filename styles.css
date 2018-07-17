@@ -45,19 +45,23 @@ body{
 
 }
 .download-resume-btn{
-  border-radius: 100px;margin-left: 20%;
+  border-radius: 100px;margin-left: 70%;
+    height: 100px;
+    width: 450px;
 }
 
 @media screen and (max-width: 600px) {
     .arrow{
-        visibility: hidden !important;
+        display: none !important;
     }
  .responsiveImgDivs{
    padding: 0px !important;
  }
+
   .navbar{
     position: fixed;
     opacity:1 !important;
+
 
   }
   div img.img-block{
@@ -74,7 +78,11 @@ a img.viewbtn{
   margin-left: 10px;
    }
   .download-resume-btn{
-  border-radius: 100px;margin-left: 18%;margin-top: 10px;margin-bottom: -20px;
+  border-radius: 100px;
+      margin-left: 18%;
+      margin-top: 10px;
+      height: 60px !important;
+      margin-bottom: -20px;
 }
   #resume{
   height:200px ;
@@ -86,6 +94,7 @@ a img.viewbtn{
     padding-top: 180px;
   margin-bottom: 0px;
   margin-right: -20px;
+      width: 100%;
   /* background: url('./landing'); */
   background-image: url('./v.jpg') !important;
   background-size: 100% 100% !important;
@@ -94,6 +103,10 @@ a img.viewbtn{
   .nav-name{
     margin-left: -10px !important;
   }
+    .email{
+        letter-spacing: 0.2em;
+        font-size: 15px !important;
+    }
 
 }
 
@@ -116,6 +129,7 @@ a img.viewbtn{
   color: black;
   align-self: center;
   margin-left: 10px;
+    cursor: pointer;
 }
 a:hover{
   text-decoration: none;
@@ -151,7 +165,6 @@ a:hover{
   padding-top: 180px;
   padding-left: 50px;
   margin-bottom: 0px;
-  /* background: url('./landing'); */
   background-image: url('./landing.jpg');
   background-size: 100% 105%;
   background-repeat: no-repeat;
