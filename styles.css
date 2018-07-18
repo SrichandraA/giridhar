@@ -49,9 +49,17 @@ body{
     height: 100px;
     width: 450px;
 }
+@media screen and (max-width: 1024px) {
+    .download-resume-btn {
+        border-radius: 100px;
+        margin-left: 35% !important;
+        height: 100px;
+        width: 450px;
+    }
+}
 @media screen and (max-width: 768px) {
     .download-resume-btn{
-        border-radius: 100px;margin-left: 30% !important;
+        border-radius: 100px;margin-left: 25% !important;
         height: 100px;
         width: 450px;
     }
