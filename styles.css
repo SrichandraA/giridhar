@@ -45,11 +45,16 @@ body{
 
 }
 .download-resume-btn{
-  border-radius: 100px;margin-left: 70%;
+  border-radius: 100px;margin-left: 95%;
     height: 100px;
     width: 450px;
 }
 @media screen and (max-width: 768px) {
+    .download-resume-btn{
+        border-radius: 100px;margin-left: 30% !important;
+        height: 100px;
+        width: 450px;
+    }
     .nav-name {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
