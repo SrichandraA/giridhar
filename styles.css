@@ -52,14 +52,14 @@ body{
 @media screen and (max-width: 1024px) {
     .download-resume-btn {
         border-radius: 100px;
-        margin-left: 45% !important;
+        margin-left: 55% !important;
         height: 100px;
         width: 450px;
     }
 }
 @media screen and (max-width: 768px) {
     .download-resume-btn{
-        border-radius: 100px;margin-left: 45% !important;
+        border-radius: 100px;margin-left: 55% !important;
         height: 100px;
         width: 450px;
     }
