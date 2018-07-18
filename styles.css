@@ -45,21 +45,21 @@ body{
 
 }
 .download-resume-btn{
-  border-radius: 100px;margin-left: 75%;
+  border-radius: 100px;margin-left: 95%;
     height: 100px;
     width: 450px;
 }
 @media screen and (max-width: 1024px) {
     .download-resume-btn {
         border-radius: 100px;
-        margin-left: 25% !important;
+        margin-left: 35% !important;
         height: 100px;
         width: 450px;
     }
 }
 @media screen and (max-width: 768px) {
     .download-resume-btn{
-        border-radius: 100px;margin-left: 25% !important;
+        border-radius: 100px;margin-left: 35% !important;
         height: 100px;
         width: 450px;
     }
