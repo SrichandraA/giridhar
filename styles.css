@@ -71,9 +71,7 @@ body{
         margin-right: 1000px;
 
     }
-    .x-navbar.x-navbar-fixed-top {
-        position: fixed !important;
-    }
+
     .navbar{
         position: fixed !important;
         opacity:1 !important;
