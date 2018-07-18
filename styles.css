@@ -97,7 +97,7 @@ a img.viewbtn{
       width: 100%;
   /* background: url('./landing'); */
   background-image: url('./v.jpg') !important;
-  background-size: 120% 120% !important;
+  background-size: 100% 100% !important;
   background-repeat: no-repeat;
   }
   .nav-name{
@@ -166,7 +166,7 @@ a:hover{
   padding-left: 50px;
   margin-bottom: 0px;
   background-image: url('./landing.jpg');
-  background-size: 100% 105%;
+  background-size: 120% 125%;
   background-repeat: no-repeat;
 }
  .email{
