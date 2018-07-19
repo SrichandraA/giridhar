@@ -1,5 +1,9 @@
 
 $(document).ready(function(){
+    if (screen.width > 600) {
+        var mvp = document.getElementById('myViewport');
+        mvp.setAttribute('content','width=device-width, user-scalable=no');
+    }
     if (screen && screen.width > 1024) {
         if ($(window).scrollTop() === 0) {
             $("nav").css("opacity", "0.3");
