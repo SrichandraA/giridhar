@@ -45,7 +45,7 @@ body{
 
 }
 .download-resume-btn{
-  border-radius: 100px;margin-left: 95%;
+  border-radius: 100px;margin-left: 75%;
     height: 100px;
     width: 450px;
 }
@@ -81,7 +81,12 @@ body{
 
 }
     @media screen and (max-width: 600px) {
-
+        .social-icons-panel{
+            display:flex;
+            flex-direction: row;
+            margin-top: 80px;
+            margin-top: 50px !important;
+        }
     .arrow{
         display: none !important;
     }
@@ -122,7 +127,7 @@ a img.viewbtn{
   background-position: center
 }
   .home{
-    padding-top: 180px;
+    padding-top: 140px !important;
   margin-bottom: 0px;
   margin-right: -20px;
       width: 100%;
